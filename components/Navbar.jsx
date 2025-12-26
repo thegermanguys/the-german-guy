@@ -63,6 +63,14 @@ const Navbar = () => {
                       Cost Estimation
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/grade-conversion"
+                      className="block py-2 px-4 cursor-pointer hover:text-blue-500"
+                    >
+                      Grade Conversion
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -75,10 +83,10 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/grade-conversion"
+                  href="#partnered-universities"
                   className="block py-2 md:py-0 hover:text-blue-500"
                 >
-                  Grade Conversion
+                  Partnered Universities
                 </Link>
               </li>
               <li className="relative group">
