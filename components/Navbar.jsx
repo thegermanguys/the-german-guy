@@ -78,7 +78,16 @@ const Navbar = () => {
                   href="/partners"
                   className="block py-2 md:py-0 hover:text-blue-500"
                 >
-                  Our Partners
+                  Our Affilates
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://whop.com/tgg-the-german-guy-ug/"
+                  className="block py-2 md:py-0 hover:text-blue-500"
+                  target="_blank"
+                >
+                  TGG Academy
                 </Link>
               </li>
               <li>
@@ -99,7 +108,7 @@ const Navbar = () => {
                 <ul className="absolute left-[-35px] top-full hidden group-hover:block border border-gray-300 dark:border-gray-600 rounded-md shadow-lg z-10 dark:bg-slate-600 bg-white">
                   <li>
                     <Link
-                      href="/services/#"
+                      href="/services/#about"
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
                       About TGG
@@ -131,7 +140,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      href="/services/#"
+                      href="/#footer"
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
                       Social Media

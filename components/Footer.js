@@ -4,7 +4,7 @@ import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-200 rounded p-10">
+    <footer id="footer" className="footer footer-center bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-200 rounded p-10">
       <div className="container px-4 py-10 mx-auto flex flex-col gap-8">
         <nav className="cursor-pointer flex justify-center items-center gap-4">
           <Link
