@@ -34,6 +34,10 @@ const FAQs = () => {
       answer:
         "Our purpose is to assist you in finding the perfect university or job. Throughout the entire process, we lend a hand with documentation and legal procedures. We will guide you in crafting your CV and application letter, and handle your documents and travel arrangements. Our goal is to make your journey as smooth as possible. Just know, we're here to help with anything you may need.",
     },
+    {
+      question: "What is Ausbildung?",
+      answer: "Ausbildung is a kind of study where you also gain practical industry experience along side. Usually 50% of course is theoritical and 50% is practical working."
+    }
   ];
 
   return (
