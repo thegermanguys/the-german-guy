@@ -78,7 +78,7 @@ const Navbar = () => {
                   href="/partners"
                   className="block py-2 md:py-0 hover:text-blue-500"
                 >
-                  Our Affilates
+                  Our Affiliates
                 </Link>
               </li>
               <li>
@@ -180,7 +180,15 @@ const Navbar = () => {
                             href="/partners"
                             className="block py-2 md:py-0"
                           >
-                            <SheetClose>Our Partners</SheetClose>
+                            <SheetClose>Our Affiliates</SheetClose>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="#tgg-academy"
+                            className="block py-2 md:py-0"
+                          >
+                            <SheetClose>TGG Academy</SheetClose>
                           </Link>
                         </li>
                         <li>
