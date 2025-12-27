@@ -193,6 +193,14 @@ const Navbar = () => {
                         </li>
                         <li>
                           <Link
+                            href="#partnered-universities"
+                            className="block py-2 md:py-0"
+                          >
+                            <SheetClose>Partnered Universities</SheetClose>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
                             href="/grade-conversion"
                             className="block py-2 md:py-0"
                           >
