@@ -15,6 +15,11 @@ const FAQs = () => {
         "Getting your visa sorted out can take a few weeks and how long exactly depends on the type of visa you’re applying for and how busy the German embassy or consulate in Kathmandu is. To make sure everything goes smoothly, it’s a good idea to kick off the process well before you plan to start your journey. That way, you’ll have plenty of time to handle everything without any stress. For more info, please follow the embassy website ( https://kathmandu.diplo.de/np-de )",
     },
     {
+      question: "How can I apply for a German visa?",
+      answer:
+        "You can apply for a German visa online through the official Consular Services Portal(Diplo Portal). Visit the CSP website to complete your application and follow the required steps. For detailed guidance, you can also refer to our YouTube video series, where we explain the entire application process step by step ( https://www.youtube.com/playlist?list=PLvINdAyNEXiz741uhBAlYyvqYvVbU4GgY )",
+    },
+    {
       question: "How much money does it take in total?",
       answer:
         "For students, here's a breakdown to help you plan: • Blocked Account: ~ 12,500 € • Processing expenses (including visa fee, university admission fee, insurance): ~ 1,000 € • Travel: ~ 600 € • First-month expenses: ~ 1,500 €(rent, deposit, etc) • Other: ~ 1,000 € Keep in mind, these numbers might change based on your situation, university and the city you're headed to. The exact figure depends on your contract and the type of visa you are applying for.",
@@ -36,8 +41,40 @@ const FAQs = () => {
     },
     {
       question: "What is Ausbildung?",
-      answer: "Ausbildung is a kind of study where you also gain practical industry experience along side. Usually 50% of course is theoritical and 50% is practical working."
-    }
+      answer: "Ausbildung is a vocational training program in Germany that combines theoretical education with practical work experience. The program follows a dual system, where students spend part of their time studying at a vocational school and the remaining time working in a company. Typically, around 50% of the training is theoretical and 50% is hands-on practical training, allowing participants to gain real industry experience while learning."
+    },
+     {
+      question: "Who can apply for Ausbildung?",
+      answer: "Anyone who meets the basic eligibility criteria such as minimum educational qualification, age requirements, and German language proficiency can apply for Ausbildung."
+    },
+    {
+      question: "Do I need German language skills for Ausbildung?",
+      answer: "Yes, German language proficiency is required. Most programs require at least B1 or B2 level of German, depending on the profession and employer."
+    },
+    {
+      question: "Is Ausbildung paid?",
+      answer: "Yes. Ausbildung is a paid training program. Trainees receive a monthly salary that usually increases each year of the training."
+    },
+      {
+      question: "How long does Ausbildung take?",
+      answer: "The duration of Ausbildung typically ranges from 2 to 3.5 years, depending on the occupation and prior qualifications."
+    },
+     {
+      question: "What qualifications do I need for Ausbildung?",
+      answer: "Generally, a secondary school certificate is sufficient. However, specific trades may have additional requirements."
+    },
+    {
+      question: "Can international students apply for Ausbildung in Germany?",
+      answer: "Yes, international students can apply for Ausbildung and are eligible to apply for a German Ausbildung visa."
+    },
+    {
+      question: "Which fields are popular for Ausbildung?",
+      answer: "Popular Ausbildung fields include healthcare, IT, engineering, hospitality, automotive, electronics, logistics, and skilled trades."
+    },
+    {
+      question: "What happens after completing Ausbildung?",
+      answer: "After successful completion, candidates receive a recognized qualification and often have strong job opportunities in Germany. Many trainees are offered full-time employment by their training company."
+    },
   ];
 
   return (
