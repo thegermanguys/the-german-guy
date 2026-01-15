@@ -16,6 +16,7 @@ import { useRouter } from "next/navigation";
 import SocialLinks from "./SocialLinks";
 import ContactBtn from "./ContactBtn";
 import Image from "next/image";
+import PartneredUniversities from "@/app/partnered-universities/page";
 
 const Navbar = () => {
   const router = useRouter();
@@ -92,7 +93,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#partnered-universities"
+                  href="/partnered-universities"
                   className="block py-2 md:py-0 hover:text-blue-500"
                 >
                   Partnered Universities
@@ -193,7 +194,7 @@ const Navbar = () => {
                         </li>
                         <li>
                           <Link
-                            href="#partnered-universities"
+                            href="/partnered-universities"
                             className="block py-2 md:py-0"
                           >
                             <SheetClose>Partnered Universities</SheetClose>
