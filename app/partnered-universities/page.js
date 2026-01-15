@@ -90,7 +90,7 @@ export default function PartneredUniversities() {
           />
           <UniversityCard
             name="IU University of Applied Sciences (IU)"
-            desc="City: Köln, Berlin(Not available in 2026)"
+            desc="City: Köln, Berlin(not available in 2026)"
           />
         </div>
       </section>
