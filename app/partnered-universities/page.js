@@ -53,7 +53,7 @@ const CountryCTA = ({ country }) => (
       Would you like to collaborate with us or list your university here?
     </p>
     <a
-      href="https://forms.gle/eZF2CUXXsGYd5v9C8"
+      href="mailto:contact@thegermanguy.org"
       className="px-6 py-3 bg-white text-blue-600 rounded-md font-medium inline-block"
     >
       Contact Us
@@ -81,12 +81,16 @@ export default function PartneredUniversities() {
 
         <div className="space-y-4">
           <UniversityCard
-            name="EIIET"
-            desc="Industry-focused programs with strong practical exposure."
+            name="European Institute of Innovation, Entrepreneurship, and Technology(EIIET)"
+            desc="City: Berlin"
           />
           <UniversityCard
-            name="IU – International University"
-            desc="Globally recognised private university with flexible learning."
+            name="SRH University of Applied Sciences"
+            desc="City: Berlin, Leipzig, Heidelberg, Köln, Hamburg, Fürth, Munich, Dresden, Hamm, Stuttgart, Bremen, Gera"
+          />
+          <UniversityCard
+            name="IU University of Applied Sciences (IU)"
+            desc="City: Köln, Berlin(Not available in 2026)"
           />
         </div>
       </section>
