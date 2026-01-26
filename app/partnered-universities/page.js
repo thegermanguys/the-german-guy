@@ -92,6 +92,10 @@ export default function PartneredUniversities() {
             name="IU University of Applied Sciences (IU)"
             desc="City: Köln, Berlin(not available in 2026)"
           />
+            <UniversityCard
+            name="HdWM: Hochschule der Wirtschaft für Management"
+            desc="City: Mannheim"
+          /> 
         </div>
       </section>
 
