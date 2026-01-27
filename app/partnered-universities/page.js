@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 
-// UniversityCard now takes a logo prop
-const UniversityCard = ({ name, desc, logo }) => (
+// UniversityCard now takes a logo and formLink prop
+const UniversityCard = ({ name, desc, logo, formLink }) => (
   <div className="flex flex-col md:flex-row items-center justify-between gap-4 border rounded-md p-4">
     <div className="flex items-center gap-4">
       <div className="w-36 h-28 relative flex-shrink-0">
@@ -21,7 +21,9 @@ const UniversityCard = ({ name, desc, logo }) => (
     </div>
 
     <a
-      href="https://forms.gle/eZF2CUXXsGYd5v9C8"
+      href={formLink}
+      target="_blank"
+      rel="noopener noreferrer"
       className="mt-4 md:mt-0 px-4 py-2 bg-blue-600 text-white text-sm rounded-md whitespace-nowrap"
     >
       Apply Now
@@ -73,26 +75,31 @@ export default function PartneredUniversities() {
             name="European Institute of Innovation, Entrepreneurship, and Technology (EIIET)"
             desc="City: Berlin"
             logo="/assets/EIIET.png"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
             name="SRH University of Applied Sciences"
             desc="City: Berlin, Leipzig, Heidelberg, Köln, Hamburg, Fürth, Munich, Dresden, Hamm, Stuttgart, Bremen, Gera"
             logo="/assets/SRH.png"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
             name="IU University of Applied Sciences (IU)"
             desc="City: Köln, Berlin (not available in 2026)"
             logo="/assets/IU.svg"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
             name="HdWM: Hochschule der Wirtschaft für Management"
             desc="City: Mannheim"
             logo="/assets/HDWM.webp"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
             name="Gisma University of Europe of Applied Sciences"
             desc="City: Berlin, Potsdam"
             logo="/assets/Gisma.png"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
         </div>
       </section>
@@ -105,6 +112,7 @@ export default function PartneredUniversities() {
           name="MODUL University Vienna"
           desc="Specialised in business, tourism, sustainability & innovation."
           logo="/assets/Modul.svg"
+          formLink="https://forms.gle/eZF2CUXXsGYd5v9C8"
         />
       </section>
 
