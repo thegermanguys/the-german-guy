@@ -77,7 +77,7 @@ export default function PartneredUniversities() {
           <UniversityCard
             name="SRH University of Applied Sciences"
             desc="City: Berlin, Leipzig, Heidelberg, Köln, Hamburg, Fürth, Munich, Dresden, Hamm, Stuttgart, Bremen, Gera"
-            logo="/assets/TGGLogo.png"
+            logo="/assets/SRH.png"
           />
           <UniversityCard
             name="IU University of Applied Sciences (IU)"
@@ -92,7 +92,7 @@ export default function PartneredUniversities() {
           <UniversityCard
             name="Gisma University of Europe of Applied Sciences"
             desc="City: Berlin, Potsdam"
-            logo="/assets/TGGLogo.png"
+            logo="/assets/Gisma.png"
           />
         </div>
       </section>
@@ -104,7 +104,7 @@ export default function PartneredUniversities() {
         <UniversityCard
           name="MODUL University Vienna"
           desc="Specialised in business, tourism, sustainability & innovation."
-          logo="/assets/TGGLogo.png"
+          logo="/assets/Modul.svg"
         />
       </section>
 
