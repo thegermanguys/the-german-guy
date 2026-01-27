@@ -1,39 +1,28 @@
 "use client";
 
-const UniversityIcon = () => (
-  <svg
-    width="40"
-    height="40"
-    viewBox="0 0 24 24"
-    fill="none"
-    className="text-blue-600"
-  >
-    <path
-      d="M3 10L12 4L21 10L12 16L3 10Z"
-      stroke="currentColor"
-      strokeWidth="1.5"
-    />
-    <path
-      d="M5 12V18H19V12"
-      stroke="currentColor"
-      strokeWidth="1.5"
-    />
-  </svg>
-);
+import Image from "next/image";
 
-const UniversityCard = ({ name, desc }) => (
-  <div className="flex items-center justify-between gap-4 border rounded-md p-4">
+// UniversityCard now takes a logo prop
+const UniversityCard = ({ name, desc, logo }) => (
+  <div className="flex flex-col md:flex-row items-center justify-between gap-4 border rounded-md p-4">
     <div className="flex items-center gap-4">
-      <UniversityIcon />
+      <div className="w-36 h-28 relative flex-shrink-0">
+        <Image
+          src={logo}
+          alt={`${name} logo`}
+          fill
+          className="object-contain"
+        />
+      </div>
       <div>
-        <h3 className="font-semibold">{name}</h3>
+        <h3 className="font-semibold text-base md:text-lg">{name}</h3>
         <p className="text-sm text-gray-600">{desc}</p>
       </div>
     </div>
 
     <a
       href="https://forms.gle/eZF2CUXXsGYd5v9C8"
-      className="px-4 py-2 bg-blue-600 text-white text-sm rounded-md whitespace-nowrap"
+      className="mt-4 md:mt-0 px-4 py-2 bg-blue-600 text-white text-sm rounded-md whitespace-nowrap"
     >
       Apply Now
     </a>
@@ -81,30 +70,32 @@ export default function PartneredUniversities() {
 
         <div className="space-y-4">
           <UniversityCard
-            name="European Institute of Innovation, Entrepreneurship, and Technology(EIIET)"
+            name="European Institute of Innovation, Entrepreneurship, and Technology (EIIET)"
             desc="City: Berlin"
+            logo="/assets/EIIET.png"
           />
           <UniversityCard
             name="SRH University of Applied Sciences"
             desc="City: Berlin, Leipzig, Heidelberg, Köln, Hamburg, Fürth, Munich, Dresden, Hamm, Stuttgart, Bremen, Gera"
+            logo="/assets/TGGLogo.png"
           />
           <UniversityCard
             name="IU University of Applied Sciences (IU)"
-            desc="City: Köln, Berlin(not available in 2026)"
+            desc="City: Köln, Berlin (not available in 2026)"
+            logo="/assets/IU.svg"
           />
-            <UniversityCard
+          <UniversityCard
             name="HdWM: Hochschule der Wirtschaft für Management"
             desc="City: Mannheim"
-          /> 
+            logo="/assets/HDWM.webp"
           />
-            <UniversityCard
+          <UniversityCard
             name="Gisma University of Europe of Applied Sciences"
             desc="City: Berlin, Potsdam"
-          /> 
+            logo="/assets/TGGLogo.png"
+          />
         </div>
       </section>
-
-
 
       {/* AUSTRIA */}
       <section className="py-6 px-4 md:px-10 max-w-5xl mx-auto">
@@ -113,6 +104,7 @@ export default function PartneredUniversities() {
         <UniversityCard
           name="MODUL University Vienna"
           desc="Specialised in business, tourism, sustainability & innovation."
+          logo="/assets/TGGLogo.png"
         />
       </section>
 
