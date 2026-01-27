@@ -96,6 +96,11 @@ export default function PartneredUniversities() {
             name="HdWM: Hochschule der Wirtschaft für Management"
             desc="City: Mannheim"
           /> 
+          />
+            <UniversityCard
+            name="Gisma University of Europe of Applied Sciences"
+            desc="City: Berlin, Potsdam"
+          /> 
         </div>
       </section>
 
