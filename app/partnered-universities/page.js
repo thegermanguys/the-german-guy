@@ -102,7 +102,7 @@ export default function PartneredUniversities() {
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
-            name="Berlin School of Business and Innovation"
+            name="Berlin School of Business and Innovation (BSBI)"
             desc="City: Berlin"
             logo="/assets/bsbi.svg"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
