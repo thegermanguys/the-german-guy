@@ -22,7 +22,7 @@ const Footer = () => {
           <Link href="/#about" className="link link-hover hover:text-blue-500">
             About
           </Link>
-          <Link href="/#impressum/page" className="link link-hover hover:text-blue-500">
+          <Link href="https://thegermanguy.org/impressum" className="link link-hover hover:text-blue-500">
             Impressum
           </Link>
         </nav>
