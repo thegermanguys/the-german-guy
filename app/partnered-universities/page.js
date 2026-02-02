@@ -98,9 +98,7 @@ export default function PartneredUniversities() {
           <UniversityCard
             name="Gisma University of Europe of Applied Sciences"
             desc="City: Berlin, Potsdam"
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition-colors max-w-[200px]">
-              <a href="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2O" target="_blank">Know more</a>
-            </Button>
+            <a href="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2O" target="_blank">Know more</a>
             logo="/assets/Gisma.png"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
