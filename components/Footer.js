@@ -22,6 +22,9 @@ const Footer = () => {
           <Link href="/#about" className="link link-hover hover:text-blue-500">
             About
           </Link>
+          <Link href="/#impressum" className="link link-hover hover:text-blue-500">
+            Impressum
+          </Link>
         </nav>
         <div className="socials_wrapper mx-auto">
           <SocialLinks />
