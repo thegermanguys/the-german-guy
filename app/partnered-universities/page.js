@@ -84,7 +84,7 @@ export default function PartneredUniversities() {
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
-            name="IU University of Applied Sciences (IU)"
+            name="IU International University of Applied Sciences"
             desc="City: Köln, Berlin (not available in 2026)"
             logo="/assets/IU.svg"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
