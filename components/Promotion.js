@@ -17,13 +17,15 @@ const Promotion = () => {
           </div>
           <div className="flex flex-col h-full justify-between items-center">
             <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100 text-center">
-              Visa Process Deadline Extensions
+              Open Your Expatrio Blocked Account
             </h3>
             <p className="mb-4 text-gray-700 dark:text-gray-300 text-center">
-              The deadlines for visa applications have been extended. Check the
-              new dates.
+              The all-in-one visa package for internationals coming to Germany. Trusted by 200,000 users worldwide.
             </p>
-            <Button className="max-w-[200px]">Learn More</Button>
+            </div>
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition-colors max-w-[200px]">
+              <a href="https://www.expatrio.com/?p=TGG23" target="_blank">Get Your Value Package</a>
+            </Button>
           </div>
         </div>
         <div className="bg-gray-800 dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-center justify-center">
