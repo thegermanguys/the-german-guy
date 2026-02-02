@@ -98,14 +98,14 @@ export default function PartneredUniversities() {
           <UniversityCard
             name="Gisma University of Europe of Applied Sciences"
             desc="City: Berlin, Potsdam"
-             <a href="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2O">Know more</a>
+             <button onclick="window.location.href='https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2O'">Know more</button>
             logo="/assets/Gisma.png"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
             name="Berlin School of Business and Innovation"
             desc="City: Berlin"
-            <a href="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2P">Know more</a>
+            <button onclick="window.location.href='https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2P'">Know more</button>
             logo="/assets/bsbi.svg"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
