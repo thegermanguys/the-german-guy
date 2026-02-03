@@ -10,18 +10,18 @@ const Promotion = () => {
       <p className="text-center mb-8 text-gray-700 dark:text-gray-300 text-lg lg:text-2xl">
         Stay updated with the latest promotions and important announcements.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 max-w-[1400px] mx-auto">
-        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-center justify-center">
+    <div className="bg-gray-800 dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-center justify-center">
           <div className="mr-4">
-            <i className="fas fa-bullhorn text-2xl text-gray-900 dark:text-gray-100"></i>
+            <i className="fas fa-tag text-2xl text-gray-300 dark:text-gray-100"></i>
           </div>
           <div className="flex flex-col h-full justify-between items-center">
-            <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100 text-center">
+            <div className="text-center">
+              <h3 className="text-lg font-semibold mb-2 text-gray-100 dark:text-gray-200">
               Open Your Expatrio Blocked Account
-            </h3>
-            <p className="mb-4 text-gray-700 dark:text-gray-300 text-center">
-              The all-in-one visa package for internationals coming to Germany. Trusted by 200,000 users worldwide.
-            </p>
+              </h3>
+              <p className="mb-4 text-gray-400 dark:text-gray-300">
+<a The all in one visa package for internationals coming to Germany. Trusted by 200,000 users worldwide.</a>           
+    </p>
             </div>
             <Button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition-colors max-w-[200px]">
               <a href="https://www.expatrio.com/?p=TGG23" target="_blank">Get Your Value Package</a>
