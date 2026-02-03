@@ -107,6 +107,12 @@ export default function PartneredUniversities() {
             logo="/assets/bsbi.svg"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
+           <UniversityCard
+            name="Constructor University"
+            desc="City: Bremen"
+            logo="/assets/CU-Logo.png"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
+          />   
         </div>
       </section>
 
