@@ -110,7 +110,7 @@ export default function PartneredUniversities() {
            <UniversityCard
             name="Constructor University"
             desc="City: Bremen"
-            logo="/assets/CU-Logo.png"
+            logo="/assets/cu.png"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />   
         </div>
