@@ -20,8 +20,8 @@ const Promotion = () => {
               Open Your Expatrio Blocked Account
               </h3>
               <p className="mb-4 text-gray-400 dark:text-gray-300">
-<a The all in one visa package for internationals coming to Germany. Trusted by 200,000 users worldwide.</a>           
-    </p>
+              <a The all in one visa package for internationals coming to Germany.</a>           
+            </p>
             </div>
             <Button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition-colors max-w-[200px]">
               <a href="https://www.expatrio.com/?p=TGG23" target="_blank">Get Your Value Package</a>
