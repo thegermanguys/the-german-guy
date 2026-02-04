@@ -74,8 +74,7 @@ const Promotion = () => {
               Claim Offer
             </Button>
           </div>
-        </div>
-      </div>
+        </div> 
     </section>
   );
 };
