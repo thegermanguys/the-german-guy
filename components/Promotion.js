@@ -23,6 +23,9 @@ const Promotion = () => {
               The all-in-one visa package for internationals coming to Germany
             </p>
             </div>
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition-colors max-w-[200px]">
+              <a href="https://www.expatrio.com/?p=TGG23" target="_blank">Get Your Value Package</a>
+            </Button>
           </div>
         </div>
         <div className="bg-gray-800 dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-center justify-center">
