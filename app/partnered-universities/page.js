@@ -28,6 +28,14 @@ const UniversityCard = ({ name, desc, logo, formLink }) => (
     >
       Apply Now
     </a>
+    <a
+      href={uniLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 md:mt-0 px-4 py-2 bg-blue-600 text-white text-sm rounded-md whitespace-nowrap"
+    >
+      Know more
+    </a>    
   </div>
 );
 
@@ -98,12 +106,14 @@ export default function PartneredUniversities() {
           <UniversityCard
             name="Gisma University of Europe of Applied Sciences"
             desc="City: Berlin, Potsdam"
+            uniLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2O"
             logo="/assets/Gisma.png"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
           <UniversityCard
             name="Berlin School of Business and Innovation (BSBI)"
             desc="City: Berlin"
+            uniLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2P"
             logo="/assets/bsbi.svg"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
