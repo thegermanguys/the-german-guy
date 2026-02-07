@@ -5,8 +5,8 @@ const announcements = [
   {
     title: "Open Your Expatrio Blocked Account",
     description: "The all-in-one visa package for internationals coming to Germany",
-    actionText: "View",
-    link: null,
+    actionText: "Get Your Value Package",
+    link: "https://www.expatrio.com/?p=TGG23",
   },
   {
     title: "Get your BARMER Health Insurance",
@@ -15,16 +15,16 @@ const announcements = [
     link: "https://feather-insurance.com/en/public-health-insurance/barmer?utm_source=hoc9lz2rfjmgtdp5",
   },
   {
-    title: "New German University Guidelines",
-    description: "Updated guidelines for applications to German universities",
-    actionText: "Learn More",
-    link: null,
+    title: "Learn German for Free",
+    description: "Enroll for Online German Language courses",
+    actionText: "Claim offer",
+    link: "https://whop.com/tgg-the-german-guy-ug/",
   },
   {
     title: "Free Resume Review for New Students",
     description: "Book a session to get your resume reviewed for free",
     actionText: "Claim Offer",
-    link: null,
+    link: "https://thegermanguy.org/#talk-to-team",
   },
 ];
 
