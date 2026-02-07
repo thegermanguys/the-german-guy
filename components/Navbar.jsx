@@ -47,7 +47,7 @@ const Navbar = () => {
                 >
                   Our Services
                 </Link>
-                <ul className="absolute left-[-10px] top-full hidden group-hover:block border border-gray-300 dark:border-gray-600 rounded-md shadow-lg z-10 dark:bg-slate-600 bg-white">
+                <ul className="absolute left-[-10px] top-full hidden group-hover:block border w-56 min-w-[220px] border-gray-300 dark:border-gray-600 rounded-md shadow-lg z-10 dark:bg-slate-600 bg-white">
                   <li>
                     <Link
                       href="/services/"
@@ -70,6 +70,14 @@ const Navbar = () => {
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
                       Grade Conversion
+                    </Link>
+                  </li>
+                   <li>
+                    <Link
+                      href="/it-consulting/"
+                      className="block py-2 px-4 cursor-pointer hover:text-blue-500"
+                    >
+                      IT-Consulting
                     </Link>
                   </li>
                 </ul>
