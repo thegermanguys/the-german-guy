@@ -53,7 +53,7 @@ const Navbar = () => {
                       href="/services/"
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
-                      Consulting
+                      Educational Consulting
                     </Link>
                   </li>
                   <li>
