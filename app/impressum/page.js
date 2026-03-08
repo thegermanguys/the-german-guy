@@ -16,7 +16,7 @@ const page = () => {
 
           <p>Registergericht: Amtsgericht Frankfurt(Oder)</p>
           <p>Registernummer: HRB 21884 FF</p>
-          <p>Umsatzsteuer-Identifikationsnummer: DE415329353</p>
+          <p>Umsatzsteuer-Identifikationsnummer: DE459234376</p>
           <p>Steuernummer: 061/121/02033</p>
 
           <p>Geschäftsführer: <a href="https://www.linkedin.com/in/imawanish5/" className="underline">Awanish Srivastava</a></p>
