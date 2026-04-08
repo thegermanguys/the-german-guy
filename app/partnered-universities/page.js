@@ -144,6 +144,19 @@ export default function PartneredUniversities() {
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
 
+          <UniversityCard
+            name="University of Applied Sciences Europe"
+            logo="/assets/IC-UE-Logo.webp.png"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
+          />
+
+          <UniversityCard
+            name="University of Europe for Applied Sciences(UE)"
+            desc="City: Berlin, Hamburg, Iserlohn"
+            logo="/assets/UE-DE.png"
+            formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
+          />
+
         </div>
       </section>
 
