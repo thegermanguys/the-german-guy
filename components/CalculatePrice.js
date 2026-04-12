@@ -10,6 +10,7 @@ const CalculatePrice = () => {
     bachelors: {
       name: "Bachelors",
       subOptions: {
+        public full package: 65000,
         public: 40000,
         private: 25000,
       },
@@ -17,6 +18,7 @@ const CalculatePrice = () => {
     masters: {
       name: "Masters",
       subOptions: {
+        public full package: 55000,
         public: 35000,
         private: 20000,
       },
