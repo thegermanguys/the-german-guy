@@ -3,6 +3,12 @@ import { Button } from "./ui/button";
 
 const announcements = [
   {
+    title: "Public University Package",
+    description: "Full Service: Master 55K/Bachelor 65K, You just chill we handle everything(university shortlisting, university application, visa application)",
+    actionText: "Claim Offer",
+    link: "https://thegermanguy.org/#talk-to-team",
+  },
+  {
     title: "Open Your Expatrio Blocked Account",
     description: "The all-in-one visa package for internationals coming to Germany",
     actionText: "Get Your Value Package",
@@ -19,12 +25,6 @@ const announcements = [
     description: "Enroll for Online German Language courses",
     actionText: "Claim offer",
     link: "https://whop.com/tgg-the-german-guy-ug/",
-  },
-  {
-    title: "Free Resume Review for New Students",
-    description: "Book a session to get your resume reviewed for free",
-    actionText: "Claim Offer",
-    link: "https://thegermanguy.org/#talk-to-team",
   },
 ];
 
