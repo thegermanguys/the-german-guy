@@ -104,14 +104,14 @@ export default function ITManagementServicesPage() {
                     <span className="text-2xl mt-0.5">🎁</span> 
                     <span className="leading-relaxed">
                       <strong className="font-bold block text-lg mb-1">Bonus Advantage</strong> 
-                      Consultancies using Leadhaus can also apply directly to German private universities through us*.
+                      Consultancies using Leadhaus can also apply directly to German private universities through us.
                     </span>
                   </p>
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <a
-                    href="https://leadhaus.germanguy.org"
+                    href="https://leadhaus.thegermanguy.org/app/login"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group px-8 py-4 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-semibold hover:bg-black dark:hover:bg-slate-200 transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-3"
@@ -123,7 +123,7 @@ export default function ITManagementServicesPage() {
                   </a>
                   
                   <a
-                    href="https://leadhaus.germanguy.org"
+                    href="https://leadhaus.thegermanguy.org"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-4 rounded-xl bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 transition-all border-2 border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600 inline-flex items-center justify-center gap-2"
@@ -149,7 +149,7 @@ export default function ITManagementServicesPage() {
                          </div>
                          <div className="mx-auto flex-1 max-w-[200px] bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-700 text-slate-400 dark:text-slate-500 text-xs px-4 py-2 rounded-full flex gap-2 items-center justify-center shadow-sm transition-colors duration-300">
                             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
-                            <span className="truncate">leadhaus.germanguy.org</span>
+                            <span className="truncate">leadhaus.thegermanguy.org</span>
                          </div>
                       </div>
                       
