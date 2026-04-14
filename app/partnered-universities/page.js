@@ -2,50 +2,56 @@
 
 import Image from "next/image";
 
-const UniversityCard = ({ name, desc, logo, formLink, knowMoreLink }) => (
-  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border rounded-md p-4">
+const UniversityCard = ({ name, desc, logo, formLink, knowMoreLink }) => {
+  const isEIIET = name.includes("EIIET");
 
-    {/* Left Section */}
-    <div className="flex items-start gap-4">
-      <div className="w-28 h-20 md:w-36 md:h-28 relative flex-shrink-0">
-        <Image
-          src={logo}
-          alt={`${name} logo`}
-          fill
-          className="object-contain"
-        />
+  return (
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border border-slate-200 rounded-xl p-5 hover:shadow-md transition-shadow">
+
+      {/* Left Section */}
+      <div className="flex items-start gap-5">
+        <div className={`w-28 h-20 md:w-36 md:h-20 flex-shrink-0 flex items-center justify-center overflow-hidden border ${!isEIIET ? 'bg-white border-slate-100 rounded-lg p-2' : 'border-transparent'}`}>
+          <div className="relative w-full h-full">
+            <Image
+              src={logo}
+              alt={`${name} logo`}
+              fill
+              className="object-contain"
+            />
+          </div>
+        </div>
+
+        <div className="py-1">
+          <h3 className="font-semibold text-base md:text-lg text-slate-800 mb-1">{name}</h3>
+          <p className="text-xs md:text-sm text-slate-500 leading-relaxed max-w-md">{desc}</p>
+        </div>
       </div>
 
-      <div>
-        <h3 className="font-semibold text-sm md:text-lg">{name}</h3>
-        <p className="text-xs md:text-sm text-gray-600">{desc}</p>
-      </div>
-    </div>
+      {/* Buttons */}
+      <div className="flex w-full md:w-auto gap-3 mt-2 md:mt-0">
+        {knowMoreLink && (
+          <a
+            href={knowMoreLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 md:flex-none text-center px-5 py-2.5 bg-slate-100 text-slate-700 font-medium text-sm rounded-lg hover:bg-slate-200 transition-colors"
+          >
+            Know More
+          </a>
+        )}
 
-    {/* Buttons */}
-    <div className="flex w-full md:w-auto gap-2">
-      {knowMoreLink && (
         <a
-          href={knowMoreLink}
+          href={formLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 md:flex-none text-center px-4 py-2 bg-gray-200 text-gray-800 text-sm rounded-md hover:bg-gray-300"
+          className="flex-1 md:flex-none text-center px-5 py-2.5 bg-blue-600 text-white font-medium text-sm rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
         >
-          Know More
+          Apply Now
         </a>
-      )}
-
-      <a
-        href={formLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex-1 md:flex-none text-center px-4 py-2 bg-blue-600 text-white text-sm rounded-md"
-      >
-        Apply Now
-      </a>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const CountryCTA = ({ country }) => (
   <section className="bg-blue-600 py-10 px-4 md:px-10 text-center text-white mt-10">
