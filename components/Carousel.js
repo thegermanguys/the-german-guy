@@ -155,6 +155,12 @@ const studentTestimonials = [
     description:
       "TGG guided me through out the visa processing and I was satisfied with your services and guidance. You were always available for simple and even dumb questions😂. The only thing I wished for was more research from your team as well when we did not or could not find some infos while preparing for application for Uni. Otherwise, I would definitely recommend TGG.",
   },
+  {
+    image: "/reviews/placeholder.webp",
+    name: "Prakriti",
+    description:
+      "I am really glad i chose TGG for my visa application process it was really smooth and everyone was so helpful , even after i landed in Germany they helped me from the airport to my apartment, i am very grateful towards the team",
+  },
 ];
 
 const MAX_LENGTH = 200;
