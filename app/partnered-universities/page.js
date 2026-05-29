@@ -6,7 +6,7 @@ const UniversityCard = ({ name, desc, logo, formLink, knowMoreLink }) => {
   const isEIIET = name.includes("EIIET");
 
   return (
-    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border border-slate-200 rounded-xl p-5 hover:shadow-md transition-shadow">
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border border-slate-200 dark:border-slate-800 rounded-xl p-5 hover:shadow-md transition-shadow">
 
       {/* Left Section */}
       <div className="flex items-start gap-5">
@@ -22,8 +22,8 @@ const UniversityCard = ({ name, desc, logo, formLink, knowMoreLink }) => {
         </div>
 
         <div className="py-1">
-          <h3 className="font-semibold text-base md:text-lg text-slate-800 mb-1">{name}</h3>
-          <p className="text-xs md:text-sm text-slate-500 leading-relaxed max-w-md">{desc}</p>
+          <h3 className="font-semibold text-base md:text-lg text-slate-800 dark:text-slate-100 mb-1">{name}</h3>
+          <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-md">{desc}</p>
         </div>
       </div>
 
@@ -34,7 +34,7 @@ const UniversityCard = ({ name, desc, logo, formLink, knowMoreLink }) => {
             href={knowMoreLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 md:flex-none text-center px-5 py-2.5 bg-slate-100 text-slate-700 font-medium text-sm rounded-lg hover:bg-slate-200 transition-colors"
+            className="flex-1 md:flex-none text-center px-5 py-2.5 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-medium text-sm rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
           >
             Know More
           </a>
@@ -83,11 +83,11 @@ export default function PartneredUniversities() {
 
       {/* HERO */}
       <section className="py-10 px-4 md:px-10 text-center">
-        <h1 className="text-2xl md:text-4xl font-bold mb-3">
+        <h1 className="text-2xl md:text-4xl font-bold mb-3 dark:text-white">
           Our Partnered Universities
         </h1>
 
-        <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
+        <p className="text-gray-600 dark:text-slate-400 max-w-2xl mx-auto text-sm md:text-base">
           We collaborate with selected universities in Germany and Austria to
           help students access quality education with clarity and confidence.
         </p>
@@ -95,7 +95,7 @@ export default function PartneredUniversities() {
 
       {/* GERMANY */}
       <section className="py-6 px-4 md:px-10 max-w-5xl mx-auto">
-        <h2 className="text-xl md:text-2xl font-semibold mb-4">Germany</h2>
+        <h2 className="text-xl md:text-2xl font-semibold mb-4 dark:text-white">Germany</h2>
 
         <div className="space-y-4">
 
@@ -169,7 +169,7 @@ export default function PartneredUniversities() {
 
       {/* AUSTRIA */}
       <section className="py-6 px-4 md:px-10 max-w-5xl mx-auto">
-        <h2 className="text-xl md:text-2xl font-semibold mb-4">Austria</h2>
+        <h2 className="text-xl md:text-2xl font-semibold mb-4 dark:text-white">Austria</h2>
 
         <UniversityCard
           name="MODUL University Vienna"
