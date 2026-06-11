@@ -131,7 +131,7 @@ export default function PartneredUniversities() {
             name="Gisma University of Europe of Applied Sciences"
             desc="City: Berlin, Potsdam"
             logo="/assets/Gisma.png"
-            knowMoreLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2O#getintouch-form-0"
+            knowMoreLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2O&agent=005Tf000005sugfIAA"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
 
@@ -139,7 +139,7 @@ export default function PartneredUniversities() {
             name="Berlin School of Business and Innovation (BSBI)"
             desc="City: Berlin"
             logo="/assets/bsbi.svg"
-            knowMoreLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2P"
+            knowMoreLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2P&agent=005Tf000005sugfIAA"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
 
@@ -154,6 +154,7 @@ export default function PartneredUniversities() {
             name="University of Applied Sciences Europe"
             desc="City: Amsterdam"
             logo="/assets/IC-UE-Logo.png"
+            knowMoreLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2T&agent=005Tf000005sugfIAA"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
 
@@ -161,6 +162,7 @@ export default function PartneredUniversities() {
             name="University of Europe for Applied Sciences(UE)"
             desc="City: Berlin, Hamburg, Iserlohn"
             logo="/assets/UE-DE.png"
+            knowMoreLink="https://iapro.my.salesforce-sites.com/comarketing/CoMarketingCampaign?campaign=701Tf00000Tdv2Q&agent=005Tf000005sugfIAA"
             formLink="https://docs.google.com/forms/d/e/1FAIpQLSc8HMuqwMJpLGNJ6HjfUa1PkkLFr1kLfV3oQD6HNeffXp3zQA/viewform"
           />
 
