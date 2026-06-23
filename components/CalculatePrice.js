@@ -26,12 +26,12 @@ const CalculatePrice = () => {
     ausbildung: {
       name: "Ausbildung",
       subOptions: {
-        "Pflege (Nursing)":,
-        IT: ,
-        "Koch/Köchin": ,
-        Büromanagement: 220000,
-        "Hotelfachmann/-frau": ,
-        Other: ,
+        "Pflege (Nursing)": -,
+        IT: -,
+        "Koch/Köchin": -,
+        Büromanagement: -,
+        "Hotelfachmann/-frau": -,
+        Other: -,
       },
     },
     aupair: {
