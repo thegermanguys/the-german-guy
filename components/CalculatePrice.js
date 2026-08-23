@@ -26,12 +26,12 @@ const CalculatePrice = () => {
     ausbildung: {
       name: "Ausbildung",
       subOptions: {
-        Pflege (Nursing): We will estimate the cost based on your field,
-        IT: We will estimate the cost based on your field,
-        Koch/Köchin: We will estimate the cost based on your field,
-        Büromanagement: We will estimate the cost based on your field,
-        Hotelfachmann/-frau: We will estimate the cost based on your field,
-        Other: We will estimate the cost based on your field,
+        "Pflege (Nursing)": "We will estimate the cost based on your field",
+        "IT": "We will estimate the cost based on your field",
+        "Koch/Köchin": "We will estimate the cost based on your field",
+        "Büromanagement": "We will estimate the cost based on your field",
+        "Hotelfachmann/-frau": "We will estimate the cost based on your field",
+        "Other": "We will estimate the cost based on your field",
       },
     },
     aupair: {
