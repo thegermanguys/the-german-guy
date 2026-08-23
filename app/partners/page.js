@@ -8,57 +8,62 @@ const Page = () => {
     Insurance: [
       {
         name: "Public Health Insurance:BARMER",
-        url: "https://feather-insurance.com/en/public-health-insurance/barmer?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/en-de/health-insurance/public/barmer?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Private Health Insurance:MAWISTA",
-        url: "https://feather-insurance.com/private-health-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/health-insurance/private?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Dental Insurance",
-        url: "https://feather-insurance.com/dental-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/dental-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Life Insurance",
-        url: "https://feather-insurance.com/life-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/life-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Disability Insurance",
-        url: "https://feather-insurance.com/disability-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/disability-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Dog Liability Insurance",
-        url: "https://feather-insurance.com/dog-liability-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/dog-liability-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Personal Liability Insurance",
-        url: "https://feather-insurance.com/personal-liability-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/personal-liability-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Household Contents Insurance",
-        url: "https://feather-insurance.com/household-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/household-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Bike Insurance",
-        url: "https://feather-insurance.com/bike-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/bike-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Legal Insurance",
-        url: "https://feather-insurance.com/legal-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/legal-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
       {
         name: "Pet Health",
-        url: "https://feather-insurance.com/pet-health-insurance?utm_source=hoc9lz2rfjmgtdp5",
+        url: "https://feather-insurance.com/pet-health-insurance?utm_source=thegermanguy",
+        btn_label: "Explore Plans",
+      },
+      {
+        name: "Car Insurance",
+        url: "https://feather-insurance.com/car-insurance?utm_source=thegermanguy",
         btn_label: "Explore Plans",
       },
     ],
