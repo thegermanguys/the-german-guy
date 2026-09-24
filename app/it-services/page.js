@@ -5,12 +5,41 @@ export const metadata = {
 };
 
 const portfolioProjects = [
-  { name: "NepaConnect" },
-  { name: "NRCC Berlin" },
-  { name: "Advizlo" },
-  { name: "Self-Assessment tool for Viadrina University" },
-  { name: "IndiaConnect" },
-  { name: "PolenConnect" },
+  {
+    name: "NepaConnect",
+    detail:
+      "The home of Nepalese in Germany. Listing is free and every submission is reviewed before going live.",
+    href: "https://nepaconnect.thegermanguy.org/",
+  },
+  {
+    name: "IndiaConnect",
+    detail:
+      "The home of Indians in Germany. Listing is free and every submission is reviewed before going live.",
+    href: "https://indiaconnect.thegermanguy.org/",
+  },
+  {
+    name: "Advizlo",
+    href: "https://advizlo.thegermanguy.org/",
+  },
+  {
+    name: "NRCC Berlin",
+    detail:
+      "The Nepali Rhinos Cricket Club Berlin (NRCC Berlin) was founded in 2020 to bring together the Nepali diaspora and cricket lovers in Berlin under one banner.",
+    href: "https://nrccberlin.thegermanguy.org/",
+  },
+  {
+    name: "PolenConnect",
+    href: "https://polenconnect.thegermanguy.org/",
+  },
+  {
+    name: "Self-Assessment tool for Viadrina University",
+    detail:
+      "Self-assessment for Recht und Politik / Politik und Recht at Europa-Universität Viadrina. Developed by Awanish Srivastava.",
+    href: "https://www.europa-uni.de/de/studium/studienangebot/ba-recht-politik-politik-recht/_dokumente/assessment.html",
+  },
+];
+
+const otherProducts = [
   {
     name: "Leadhaus",
     detail:
@@ -242,6 +271,19 @@ export default function ITServicesPage() {
                   </li>
                 ))}
               </ul>
+
+              <div className="mt-16 md:mt-20 border-t border-slate-200 dark:border-slate-800 pt-16 md:pt-20">
+                <h3 className="text-3xl md:text-4xl font-bold text-center mb-12 text-slate-900 dark:text-white transition-colors duration-300">
+                  Other products
+                </h3>
+                <ul className="grid gap-6 sm:grid-cols-2">
+                  {otherProducts.map((project) => (
+                    <li key={project.name} className="h-full">
+                      <PortfolioCard project={project} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
