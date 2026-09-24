@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const metadata = {
   title: "Team | The German Guy",
   description: "Awanish Srivastava is the founder and CEO of TGG (The German Guy) UG.",
@@ -20,8 +18,15 @@ export default function TeamPage() {
           Founder and CEO of TGG (The German Guy) UG
         </p>
         <p className="mt-6 text-lg text-gray-700 dark:text-gray-300">
-          Awanish Srivastava is the founder and CEO of TGG (The German Guy) UG.
-          The Impressum lists him as Geschäftsführer.
+          Awanish Srivastava has been the founder of The German Guy since 2022,
+          providing study-in-Germany consulting and digital marketing for
+          international clients and building AI-assisted web products such as
+          Leadhaus, NepaConnect, and Advizlo. His work has included delivery
+          operations, cross-border partner management, and process ownership on
+          marketplace and fintech platforms. He holds a B.Tech and M.Tech in
+          Computer Science from JNTUH College of Engineering, Hyderabad, and is
+          completing a Master of Digital Entrepreneurship at Europa-Universität
+          Viadrina in Frankfurt (Oder) and Adam Mickiewicz University in Poznań.
         </p>
         <p className="mt-6 text-lg text-gray-700 dark:text-gray-300">
           <a
@@ -32,10 +37,6 @@ export default function TeamPage() {
           >
             LinkedIn
           </a>
-          {" · "}
-          <Link href="/impressum" className="underline hover:text-blue-500">
-            Impressum
-          </Link>
         </p>
       </section>
     </main>
