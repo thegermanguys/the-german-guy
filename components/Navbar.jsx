@@ -74,10 +74,10 @@ const Navbar = () => {
                   </li>
                    <li>
                     <Link
-                      href="/it-consulting/"
+                      href="/it-services"
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
-                      IT-Consulting
+                      IT-Services
                     </Link>
                   </li>
                 </ul>
@@ -214,6 +214,14 @@ const Navbar = () => {
                             className="block py-2 md:py-0"
                           >
                             <SheetClose>Grade Conversion</SheetClose>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/it-services"
+                            className="block py-2 md:py-0"
+                          >
+                            <SheetClose>IT-Services</SheetClose>
                           </Link>
                         </li>
                         <li>
