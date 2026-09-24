@@ -14,8 +14,8 @@ export default function TeamPage() {
       </h1>
 
       <section className="mt-10 max-w-4xl mx-auto bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6 md:p-10">
-        <div className="grid grid-cols-1 md:grid-cols-[220px_minmax(0,1fr)] gap-8 items-start">
-          <div className="mx-auto w-52 md:w-full">
+        <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_220px] gap-8 items-start">
+          <div className="order-1 md:order-2 mx-auto w-52 md:w-full">
             <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
               <Image
                 src="/assets/awanis-founder.png"
@@ -26,7 +26,7 @@ export default function TeamPage() {
               />
             </div>
           </div>
-          <div className="text-center md:text-left">
+          <div className="order-2 md:order-1 text-center md:text-left">
             <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-200">
               Awanish Srivastava — Founder & CEO
             </h2>
