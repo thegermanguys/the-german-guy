@@ -19,6 +19,8 @@ const portfolioProjects = [
   },
   {
     name: "Advizlo",
+    detail:
+      "An online consultation booking platform for users and consultants.",
     href: "https://advizlo.thegermanguy.org/",
   },
   {
@@ -29,6 +31,7 @@ const portfolioProjects = [
   },
   {
     name: "PolenConnect",
+    detail: "A platform similar to NepaConnect, for Polish people.",
     href: "https://polenconnect.thegermanguy.org/",
   },
   {
