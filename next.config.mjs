@@ -7,6 +7,16 @@ const nextConfig = {
         destination: "/it-services",
         permanent: true,
       },
+      {
+        source: "/about-tgg",
+        destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/teams",
+        destination: "/team",
+        permanent: true,
+      },
     ];
   },
   reactStrictMode: true,
