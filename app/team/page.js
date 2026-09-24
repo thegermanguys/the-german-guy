@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Team | The German Guy",
-  description: "Awanish Srivastava is the founder and CEO of TGG (The German Guy) UG.",
+  description:
+    "Awanish Srivastava is the founder of The German Guy, a Germany-focused education and consulting platform.",
 };
 
 export default function TeamPage() {
@@ -12,32 +13,41 @@ export default function TeamPage() {
 
       <section className="mt-10 max-w-3xl mx-auto bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6 md:p-10 text-center">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-200">
-          Awanish Srivastava
+          Awanish Srivastava — Founder & CEO
         </h2>
-        <p className="mt-3 text-lg font-semibold text-gray-800 dark:text-gray-200">
-          Founder and CEO of TGG (The German Guy) UG
-        </p>
-        <p className="mt-6 text-lg text-gray-700 dark:text-gray-300">
-          Awanish Srivastava has been the founder of The German Guy since 2022,
-          providing study-in-Germany consulting and digital marketing for
-          international clients and building AI-assisted web products such as
-          Leadhaus, NepaConnect, and Advizlo. His work has included delivery
-          operations, cross-border partner management, and process ownership on
-          marketplace and fintech platforms. He holds a B.Tech and M.Tech in
-          Computer Science from JNTUH College of Engineering, Hyderabad, and is
-          completing a Master of Digital Entrepreneurship at Europa-Universität
-          Viadrina in Frankfurt (Oder) and Adam Mickiewicz University in Poznań.
-        </p>
-        <p className="mt-6 text-lg text-gray-700 dark:text-gray-300">
-          <a
-            href="https://www.linkedin.com/in/imawanish5/"
-            className="underline hover:text-blue-500"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-        </p>
+        <div className="mt-6 space-y-4 text-lg text-gray-700 dark:text-gray-300">
+          <p>
+            Awanish Srivastava is the founder of The German Guy, a
+            Germany-focused education and consulting platform helping
+            international students navigate their journey to studying and
+            building a future in Germany.
+          </p>
+          <p>
+            Since founding The German Guy in 2022, Awanish has worked with
+            students and international partners across different markets,
+            combining his experience in education consulting, digital marketing,
+            technology, and business operations to make the Germany journey more
+            accessible and transparent.
+          </p>
+          <p>
+            Beyond The German Guy, Awanish has built and worked on AI-assisted
+            digital products, including Leadhaus, NepaConnect, and Advizlo,
+            while gaining experience in delivery operations, cross-border
+            partnerships, marketplace platforms, and fintech.
+          </p>
+          <p>
+            Awanish holds a B.Tech and M.Tech in Computer Science from JNTUH
+            College of Engineering, Hyderabad. He is also completing a Master of
+            Digital Entrepreneurship, jointly pursued through Europa-Universität
+            Viadrina in Frankfurt (Oder) and Adam Mickiewicz University in
+            Poznań.
+          </p>
+          <p>
+            At The German Guy, his focus is simple: help international students
+            make informed decisions about studying in Germany and build a
+            smoother path from application to arrival.
+          </p>
+        </div>
       </section>
     </main>
   );
