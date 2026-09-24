@@ -114,10 +114,10 @@ const Navbar = () => {
                 >
                   About
                 </Link>
-                <ul className="absolute left-[-35px] top-full hidden group-hover:block border border-gray-300 dark:border-gray-600 rounded-md shadow-lg z-10 dark:bg-slate-600 bg-white">
+                <ul className="absolute left-[-35px] top-full hidden group-hover:block group-focus-within:block min-w-[11rem] border border-gray-300 dark:border-gray-600 rounded-md shadow-lg z-10 dark:bg-slate-600 bg-white">
                   <li>
                     <Link
-                      href="/services/#about"
+                      href="/about"
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
                       About TGG
@@ -125,15 +125,15 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      href="/services/#"
+                      href="/team"
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
-                      Teams
+                      Team
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services/#"
+                      href="/jobs"
                       className="block py-2 px-4 cursor-pointer hover:text-blue-500"
                     >
                       Jobs
@@ -168,7 +168,7 @@ const Navbar = () => {
               <SheetTrigger>
                 <Hamburger />
               </SheetTrigger>
-              <SheetContent>
+              <SheetContent className="overflow-y-auto">
                 <SheetHeader>
                   <SheetTitle className="font-bold my-4">
                     The German Guy
@@ -224,10 +224,39 @@ const Navbar = () => {
                             <SheetClose>IT-Services</SheetClose>
                           </Link>
                         </li>
-                        <li>
-                          <Link href="/#about" className="block py-2 md:py-0">
-                            <SheetClose>About</SheetClose>
-                          </Link>
+                        <li className="w-full text-center">
+                          <details>
+                            <summary className="cursor-pointer list-none py-2 md:py-0 [&::-webkit-details-marker]:hidden">
+                              About
+                            </summary>
+                            <ul className="flex flex-col items-center gap-4 mt-4">
+                              <li>
+                                <Link href="/about" className="block py-1 hover:text-blue-500">
+                                  <SheetClose>About TGG</SheetClose>
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="/team" className="block py-1 hover:text-blue-500">
+                                  <SheetClose>Team</SheetClose>
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="/jobs" className="block py-1 hover:text-blue-500">
+                                  <SheetClose>Jobs</SheetClose>
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="/impressum" className="block py-1 hover:text-blue-500">
+                                  <SheetClose>Impressum</SheetClose>
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="/#footer" className="block py-1 hover:text-blue-500">
+                                  <SheetClose>Social Media</SheetClose>
+                                </Link>
+                              </li>
+                            </ul>
+                          </details>
                         </li>
                       </ul>
                       <SheetClose asChild className="mb-2">
